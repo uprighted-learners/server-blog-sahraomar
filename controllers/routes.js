@@ -47,4 +47,6 @@ router.post("/posts", (req, res) => {
   const newPost = req.body;
 });
 
+module.exports = router;
+
 //update an exsiting post by post_id
